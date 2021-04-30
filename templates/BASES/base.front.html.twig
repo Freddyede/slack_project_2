@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block titleSup %}{% endblock %}</title>
+        <link rel="shortcut icon" href="{{ asset('assets/imgs/favicon/icons.png') }}" type="image/x-icon" />
+        {% block css %}{% endblock %}
+        {% block js %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>
